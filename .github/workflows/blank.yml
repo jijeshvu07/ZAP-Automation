@@ -31,4 +31,6 @@ jobs:
 
       - name: OWASP ZAP API Scan
         uses: zaproxy/action-api-scan@v0.2.0
+        with:
+          target: 'https://www.zaproxy.org/'
 
